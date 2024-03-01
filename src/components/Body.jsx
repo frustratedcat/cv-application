@@ -1,7 +1,11 @@
 export default function Body() {
   return (
     <>
-      <main>hi</main>
+      <section>button section</section>
+      <main>
+        <section>form section</section>
+        <section>submit buttom section</section>
+      </main>
     </>
   );
 }
