@@ -10,8 +10,10 @@ export default function Body() {
         <Personal></Personal>
         <Education></Education>
         <Experience></Experience>
-        <CV></CV>
       </main>
+      <section>
+        <CV></CV>
+      </section>
     </>
   );
 }
