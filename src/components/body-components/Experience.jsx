@@ -33,6 +33,8 @@ export default function Experience() {
           <button type="button">Save</button>
         </form>
 
+        <div className="experience-additions"></div>
+
         <button type="button">+ Experience</button>
       </section>
     </>

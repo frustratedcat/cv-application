@@ -24,6 +24,8 @@ export default function Education() {
           <button type="button">Save</button>
         </form>
 
+        <div className="education-additions"></div>
+
         <button type="button">+ Educaiton</button>
       </section>
     </>
