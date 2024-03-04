@@ -1,28 +1,40 @@
 export default function Experience() {
   return (
     <>
-      <h2>Experience</h2>
-      <form>
-        <fieldset>
-          <label>Company</label>
-          <input type="text" />
+      <section>
+        <h2>Experience</h2>
+        <button type="button">Expand</button>
+      </section>
 
-          <label>Position</label>
-          <input type="text" />
+      <section>
+        <form>
+          <fieldset>
+            <label>Company</label>
+            <input type="text" />
 
-          <label>Description</label>
-          <input type="text" />
+            <label>Position</label>
+            <input type="text" />
 
-          <label>Start Date</label>
-          <input type="date" />
+            <label>Description</label>
+            <input type="text" />
 
-          <label>End Date</label>
-          <input type="date" />
+            <label>Start Date</label>
+            <input type="date" />
 
-          <label>Location</label>
-          <input type="text" />
-        </fieldset>
-      </form>
+            <label>End Date</label>
+            <input type="date" />
+
+            <label>Location</label>
+            <input type="text" />
+          </fieldset>
+
+          <button type="button">Delete</button>
+          <button type="button">Cancel</button>
+          <button type="button">Save</button>
+        </form>
+
+        <button type="button">+ Experience</button>
+      </section>
     </>
   );
 }
