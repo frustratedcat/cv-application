@@ -21,7 +21,7 @@ export default function Experience() {
             <label>Start Date</label>
             <input type="date" />
 
-            <label>End Date</label>
+            <label>End Date (If Not Current)</label>
             <input type="date" />
 
             <label>Location</label>
