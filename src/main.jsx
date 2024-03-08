@@ -7,8 +7,10 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Header></Header>
-    <Body></Body>
-    <Footer></Footer>
+    <div className="outer-container">
+      <Header></Header>
+      <Body></Body>
+      <Footer></Footer>
+    </div>
   </React.StrictMode>,
 );
